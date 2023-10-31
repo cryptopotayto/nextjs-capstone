@@ -1,8 +1,14 @@
 import ContactForm from "@/components/contact/contact-form.component";
+import { Fragment } from "react";
 
 function ContactPage() {
     return (
-        <ContactForm />
+        <Fragment>
+            <Head>
+                <title></title>
+            </Head>
+            <ContactForm />
+        </Fragment>
     )
 }
 
